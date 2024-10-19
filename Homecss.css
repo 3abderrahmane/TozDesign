@@ -80,7 +80,7 @@ div#section {
 	  border-left: 2px solid gold;
       border-bottom: 3px solid gold;
 	  }
-div#section a:hover:after {content:" *xxx-xxx-xxxx*"}	  
+div#section a:hover:after {content:" *571-356-3315*"}	  
          	  
 div#aside { background-color:white;
            opacity: 0.8;
@@ -95,6 +95,7 @@ div#aside { background-color:white;
 		   margin-bottom:20px;
 		   }
 div#aside img{transform: perspective(100)rotateY(30deg);
+    display:none;
              }		   
 		   
 div #aside a:hover{ background-color:silver;	}	
@@ -260,12 +261,7 @@ input:required:valid {background: rgb(220, 255, 0) url(yes.png) bottom right no-
 			   -webkit-background-size: contain;
 			   background-size: contain; 
               }     
- div#me {background-image: url(me.jpg);
-        background-position: top left ;
-  	  position: relative;
-  	  background-repeat: no-repeat;
-  	  background-size:100% 100%;
-        background-color:rgba(255,0,0,0.3);
+ div#me {background: blue;
   	  margin-top:0px;
   	 width:96%;
   	 border-radius:20px;
